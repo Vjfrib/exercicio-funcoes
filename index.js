@@ -18,6 +18,7 @@ function menu () {
     case 3:
       process.exit();
     default:
+      console.clear();
       menu();
   }
     
