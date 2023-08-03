@@ -6,7 +6,7 @@ function nomes(completo) {
   //var completo = rls.question("\tDigite seu nome: \n");
   var nome = completo.split(" ");
   
-  console.log("Nomes" + nome);
+  console.log("Nomes: " + nome);
   console.log("First name: " + nome[0]);
   var last = nome.at(-1)
   console.log("Last name: " + last)
